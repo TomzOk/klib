@@ -3,7 +3,9 @@
 #------------------------------------------------------------------------------
 cmake_minimum_required(VERSION 3.5.1)
 
-set (headers khash.h)
+set (headers 
+	khash.h
+	kvec.h)
 
 # lib
 add_library(klib INTERFACE)
